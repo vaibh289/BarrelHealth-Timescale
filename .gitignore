@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.env
+
+# Generated ML models
+*.pkl
+*.joblib
+
+# Database/data files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local/generated data
+data/

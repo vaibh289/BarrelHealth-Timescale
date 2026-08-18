@@ -1,0 +1,15 @@
+services:
+  timescaledb:
+    image: timescale/timescaledb:latest-pg17
+    container_name: barrelhealth-timescaledb
+    environment:
+      POSTGRES_USER: barreluser
+      POSTGRES_PASSWORD: barrelpass
+      POSTGRES_DB: barrelhealth
+    ports:
+      - "5432:5432"
+    volumes:
+      - timescale_data:/var/lib/postgresql/data
+
+volumes:
+  timescale_data:
