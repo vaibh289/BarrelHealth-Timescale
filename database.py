@@ -44,11 +44,11 @@ def write_readings(df):
 
 def load_readings():
     query = """
-        SELECT time, machine_elapsed_seconds, heater_elapsed_seconds,
-               zone, temp_actual, temp_set, hdc, source_health, cause
-        FROM barrel_readings
-        ORDER BY time, zone
-    """
+    SELECT time, machine_elapsed_seconds, heater_elapsed_seconds,
+           zone, temp_actual, temp_set, hdc, source_health, cause
+    FROM barrel_readings
+    ORDER BY time, zone
+"""
     return pd.read_sql(query, engine)
 
 
