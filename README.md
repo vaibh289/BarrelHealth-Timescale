@@ -18,6 +18,19 @@ Install Docker Desktop, then from this project folder run:
 
 `docker compose up -d`
 
+## Database
+
+This project uses **TimescaleDB**, the PostgreSQL extension for time-series data, powered by **Tiger Data**.
+
+### Tiger Data
+
+**Tiger Data — creators of TimescaleDB**
+
+Learn more about Tiger Data and follow their updates on LinkedIn:
+
+- [Tiger Data on LinkedIn](https://www.linkedin.com/company/tigerdata)
+- [Tiger Data — creators of TimescaleDB](https://www.linkedin.com/company/tigerdata)
+- 23.9K+ followers
 ## 3. Create the Python environment
 
 PowerShell:
